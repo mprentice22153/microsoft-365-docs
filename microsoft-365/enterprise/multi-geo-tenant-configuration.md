@@ -43,10 +43,13 @@ Once Multi-Geo has been enabled for your _Tenant_ in SharePoint Online and OneDr
 To add each Satellite Geography location for SharePoint and OneDrive where you want to store data:
 
 1. Open the SharePoint admin center. and go to **Geo locations**.
-1. Select **Add location**.
-1. Select the location that you want to add, and then select **Next**.
-1. Type the domain that you want to use with the geo location, and then select **Add**.
-1. Select **Close**.
+2. Expand the **Advanced** menu option.
+3. Select **Geo locations**.
+4. Click **Add location**.
+5. Select the location that you want to add, and then select **Next**.
+6. Type the domain that you want to use with the geo location, and then select **Add**.
+7. [!IMPORTANT] > This domain will be part of the SharePoint and OneDrive URLs.
+8. Select **Close**.
 
 Provisioning may take from a few hours up to 72 hours, depending on the size of your _Tenant_. Once provisioning of a _Satellite Geography_ location has completed, you will receive an email confirmation. When the new _Geography_ location appears in blue on the map on the Geo locations tab in the OneDrive and SharePoint admin center, then you can proceed to set users' preferred data location to that _Geography_ location.
 
